@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+  <nav>
+    <h1 class="logo">MyPortfolio</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="themetoggle" class="toggle"><i class="fa-solid fa-toggle-off"></i></button>
+  </nav>
+
+  <section class="overview">
+    <h1>Hello, I'm <span>Aayushi Varshney</span></h1>
+    <p>Turning ideas into responsive and interactive web experiences using HTML,CSS,and JavaScript.</p>
+   
+  </section>
+
+  <section id="about" class = "common">
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated Frontend Web Developer focused on creating visually appealing and responsive websites. With hands-on experience in HTML, CSS, and JavaScript, I enjoy transforming ideas into functional digital experiences. I am eager to grow as a developer, explore modern frameworks, and contribute to meaningful projects that solve real-world problems.
+    </p>
+  </section>
+
+  <section id = "skills" class = "common">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>C Language</li>
+    </ul>
+  </section>
+
+  <section id="projects" class = "common">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>Built my own simon game</p>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>Created an interactive To-Do App using JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>Created spotify clone website</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact ">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class = "submit">Send Message</button>
+    </form>
+  </section>
+
+ 
+  <footer>
+    <p>Thankyou &hearts;</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

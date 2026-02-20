@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.common{
+  border:2px rgb(245, 79, 28) solid;
+  border-radius:20px;
+  margin-bottom:20px;
+  background-color:bisque;
+}
+
+.common p,li{
+  font-size:20px;
+}
+
+.common h2{
+  color:rgb(78, 84, 121);
+  font-size:30px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.dark-mode{
+  background-color: #121212;
+  color:rgb(2, 78, 103);
+}
+
+.dark-mode nav{
+  background-color: #1e1e1e;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:#f3f4f6 ;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color:blue;
+  font-weight: bold;
+  font-size: 25px;
+  transition:transform 0.3s ease;
+  display:inline-block;
+}
+
+nav a:hover{
+    transform:scale(1.15);
+}
+
+.toggle {
+  background-color:rgb(255, 0, 153);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+i{
+  font-size:25px;
+}
+
+.overview {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.overview h1 {
+  font-size: 40px;
+}
+
+.overview span {
+  color:rgb(181, 2, 2);
+}
+
+.overview p {
+  margin: 20px 0;
+  font-size:20px;
+  color:chocolate;
+}
+
+.projects {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color:rgb(236, 182, 230);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 3px 3px 10px green;
+  display:flex;
+  justify-content:space-evenly;
+
+}
+
+.card h3{
+  font-size:20px;
+  color:rgb(110, 2, 2)
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  background-color:rgb(255, 68, 0);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p{
+  color:rgb(244, 3, 192);
+  font-size: 20px;;
+}
+
+@media(max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+}
+
+nav .logo{
+    color:rgb(244, 131, 32);
+}
+
+ul{
+  padding-left:20px;
+}
+
+.dark-mode h2{
+  color:rgb(255, 0, 13);
+}
+
+.dark-mode h1{
+  color:rgb(254, 177, 109)
+}
+
